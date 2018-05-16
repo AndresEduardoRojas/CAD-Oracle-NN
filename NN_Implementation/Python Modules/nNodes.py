@@ -32,6 +32,7 @@ class neuron:
 
 def stepActvFunc(inputs, bias):
     for input in inputs:
+        inputSum = inputSum + (input.value * input.key)
 
 
 
@@ -39,3 +40,10 @@ def main():
     print('OK')
 
 if __name__ == '__main__': main()
+
+
+
+
+
+
+
