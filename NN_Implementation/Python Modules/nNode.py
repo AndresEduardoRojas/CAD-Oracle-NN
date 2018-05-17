@@ -3,6 +3,7 @@
 #Representation of a Nueron node for Neural Networks
 
 import random as rand
+import sys
 
 class neuron:
     """
@@ -38,6 +39,8 @@ def stepActvFunc(inputs, bias):
 
 def main():
     print('OK')
+    x = sys.path
+    print(x)
 
 if __name__ == '__main__': main()
 
